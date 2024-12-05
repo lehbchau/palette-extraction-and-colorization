@@ -57,6 +57,13 @@ A **Streamlit** app showcasing **AI and Machine Learning** techniques for advanc
 - **Skimage** for grayscale image processing before colorization in LAB and RGB color spaces
 
 ## Demo
+### **1. Palette Extraction Demo**
+![Palette Extraction Demo](https://github.com/lehbchau/palette-extraction-and-colorization/blob/main/assets/demo_palette_extraction.gif)
+
+
+### **2. Image Colorization Demo**
+![Image Colorization Demo](https://github.com/lehbchau/palette-extraction-and-colorization/blob/main/assets/demo_image_colorization.gif)
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
