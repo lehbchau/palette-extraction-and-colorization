@@ -15,27 +15,27 @@ A **Streamlit** app showcasing **AI and Machine Learning** techniques for advanc
 
 ### 2. Grayscale Image Colorization
 - Upload a grayscale image, and **neural network-based AI** brings it to life in color.
-- Utilizes the **SIGGRAPH '17 pretrained model**, a **deep learning model trained on a large image dataset** for realistic and context-aware colorization.
+- Utilizes the **SIGGRAPH17 pretrained model**, a **deep learning model trained on a large image dataset** for realistic and context-aware colorization.
 - Combines the power of **PyTorch** and **Skimage** for preprocessing and postprocessing.
 - Displays the **original grayscale** and **colorized image side by side** for seamless comparison.
 
 ## How the AI Works
 - **Color Palette Extraction**:
-  - Uses **unsupervised learning (K-Means)** to identify clusters in pixel color data, producing an accurate and concise representation of dominant colors in an image.
+  - Uses **unsupervised learning (K-Means Clustering)** to identify clusters in pixel color data, producing an accurate and concise representation of dominant colors in an image.
 - **Grayscale Image Colorization**:
-  - Built on the **SIGGRAPH '17 model**, which leverages a **convolutional neural network (CNN)** to predict color channels from grayscale images, offering vibrant and natural results.
+  - Built on the **SIGGRAPH17 model**, which leverages a **convolutional neural network (CNN)** to predict color channels from grayscale images, offering vibrant and natural results.
   - This AI model was trained on an extensive dataset to generalize well across various image types and styles.
 
 ## How to Use
 ### Online
-1. Visit the app on Streamlit Cloud: [Try the app here](#replace-with-your-link).  
+1. Visit the app on Streamlit Cloud: [Try the app here](https://palette-extraction-and-colorization.streamlit.app/).  
 2. Follow the intuitive instructions within the app interface.
 
 ### Local Setup (Optional)
 1. Clone this repository:
    ```bash
    git clone https://github.com/lehbchau/palette-extraction-and-colorization.git
-   cd palette-extraction-and-colorization\
+   cd palette-extraction-and-colorization
    ```
 2. Install dependencies
    ```bash
