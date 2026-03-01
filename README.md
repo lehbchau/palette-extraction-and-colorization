@@ -50,11 +50,11 @@ A **Streamlit** app showcasing **AI and Machine Learning** techniques for advanc
 - **Python**
 - **Streamlit** for web interface
 - **OpenCV** for image processing
-- **Scikit-learn** for clustering colors
+- **scikit-learn** for clustering colors
 - **Matplotlib** for palette visualization
 - **PyTorch** for deep learning
 - **Pretrained SIGGRAPH17 model** for grayscale image colorization
-- **Skimage** for grayscale image processing before colorization in LAB and RGB color spaces
+- **scikit-image** for grayscale image processing before colorization in LAB and RGB color spaces
 
 ## Demo
 ### **1. Palette Extraction Demo**
